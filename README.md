@@ -1,2 +1,5 @@
-# adult-income-classification
+# Adult Income Classification Comparative Machine Learning Model Evaluation
 Comparative study of Machine Learning classification algorithms on the Adult Income dataset.
+
+**Abstract**     
+Using the Adult Income dataset, we aim to find the most suitable model to predict the individuals with high income (>50k) or not (<50k). It is discovered during exploratory data analysis that majority class is those without high income, creating a class imbalance that might cause bias in predicting the majority class better than the minority class. Before the model training started, the features used were decided by using the Decision tree's feature importance ranking and splitted accordingly by 80/20. LPM, Logistic Regression, K-Nearest Neighbors, Decision Trees, Bagging, Random Forest, Adaptive Boosting, and Gradient Boosting were the models trained and tested to determine the most suited model for our classification problem. After comparison, Gradient Boosting produced the best accuracy and F1-score, balancing the error rates better than the other models.
